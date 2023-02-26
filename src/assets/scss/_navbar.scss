@@ -1,0 +1,13 @@
+nav {
+    img {
+        min-height: 42px;
+    }
+
+    .search-area {
+        min-width: 40%;
+
+        @media(max-width:768px) {
+            width: 100%;
+        }
+    }
+}
