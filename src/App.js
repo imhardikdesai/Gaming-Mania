@@ -1,11 +1,14 @@
 import './App.css';
-import { NavBar } from './components/index'
+import { GameGallery, NavBar } from './components/index'
 
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <div className="container mt-3">
+        <GameGallery />
+      </div>
     </div>
   );
 }

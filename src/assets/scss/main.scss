@@ -1,9 +1,10 @@
+@import 'mixin';
+@import 'common';
 @import 'navbar';
+@import 'gameBox';
 
-.w-30 {
-    width:30% !important;
-}
-
-.w-40 {
-    width: 40% !important;
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }

@@ -1,6 +1,8 @@
 import NavBar from './NavBar.jsx'
+import SideModal from './SideModal.jsx'
+import GameCard from './GameCard.jsx'
+import GameGallery from './GameGallery.jsx'
 
 
 
-
-export { NavBar }
+export { NavBar, SideModal, GameCard, GameGallery }

@@ -1,7 +1,7 @@
 // import Button from 'react-bootstrap/Button';
 import logo from '../assets/img/logo.svg'
 import { RiArrowDownSLine } from 'react-icons/ri';
-import SideModal from './SideModal';
+import { SideModal } from './index';
 import { useState } from 'react';
 
 
@@ -24,7 +24,7 @@ function NavBar() {
                 </div>
             </nav>
             <div className="container mt-2">
-                <button className='btn btn-outline-primary' onClick={handleShow}>Sort By <RiArrowDownSLine /></button>
+                <button className='btn btn-outline-primary sort-btn' onClick={handleShow}>Platform<RiArrowDownSLine /></button>
                 <SideModal show={show} handleClose={handleClose} />
             </div>
         </>
