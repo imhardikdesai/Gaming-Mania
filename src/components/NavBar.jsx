@@ -1,5 +1,5 @@
 // import Button from 'react-bootstrap/Button';
-import logo from '../assets/logo.svg'
+import logo from '../assets/img/logo.svg'
 import { RiArrowDownSLine } from 'react-icons/ri';
 import SideModal from './SideModal';
 import { useState } from 'react';
@@ -13,7 +13,10 @@ function NavBar() {
     return (
         <>
             <nav className='d-flex flex-column justify-content-between align-items-center bg-primary flex-md-row p-2'>
-                <img src={logo} alt="nav-logo" className='h-100' />
+                <div className='nav-logo'>
+                    Gaming Mania
+                    <img src={logo} alt="nav-logo" className='h-100' />
+                </div>
                 <div className="search-area">
                     <form>
                         <input type="text" className="form-control" placeholder="Enter game title" />
