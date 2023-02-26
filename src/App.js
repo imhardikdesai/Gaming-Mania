@@ -1,5 +1,5 @@
 import './App.css';
-import { GameGallery, NavBar } from './components/index'
+import { Footer, GameGallery, NavBar } from './components/index'
 
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <div className="container mt-3">
         <GameGallery />
       </div>
+      <Footer />
     </div>
   );
 }

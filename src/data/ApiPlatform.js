@@ -3,11 +3,11 @@ import API_DATA from "./ApiData"
 const giveUniquePlatform = (data) => {
 
     const removedUndefined = data.filter((item) => {
-        return item.platform !== undefined
+        return item.title !== undefined
     })
 
     const platformArr = removedUndefined.map((item, index) => {
-        return item.platform
+        return item.title
     })
 
     const uniquePlatformNames = platformArr.filter((item, index) => {

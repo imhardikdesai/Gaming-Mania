@@ -4,7 +4,7 @@ import ApiData from '../data/ApiData'
 
 const GameGallery = () => {
     return (
-        <div className='d-flex flex-wrap gap-3 align-items-center justify-content-center'>
+        <div className='d-flex flex-wrap gap-3 align-items-center justify-content-center my-3'>
             {
                 ApiData.map((item, index) => {
                     if (index === 0) {
