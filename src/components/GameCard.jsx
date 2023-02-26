@@ -35,7 +35,6 @@ const GameCard = ({ title, platform, genre, score, editors_choice }) => {
                         )
                     }
 
-
                 </div>
             </div>
         </>

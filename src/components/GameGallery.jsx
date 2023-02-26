@@ -10,7 +10,7 @@ const GameGallery = () => {
                     if (index === 0) {
                         return false;
                     }
-                    return <GameCard {...item}/>;
+                    return <GameCard key={`id${index}`} {...item} />;
                 })
             }
 

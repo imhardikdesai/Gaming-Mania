@@ -16,7 +16,7 @@ const SideModal = ({ show, handleClose }) => {
                 </Offcanvas.Body>
                 <hr />
                 <Offcanvas.Body>
-                    <div class="d-flex flex-wrap gap-3 p-2 mb-4" >
+                    <div className="d-flex flex-wrap gap-3 p-2 mb-4" >
                         <Form.Group controlId="box1">
                             <Form.Check id='box1' type="checkbox" label="Woodland" />
                         </Form.Group>
