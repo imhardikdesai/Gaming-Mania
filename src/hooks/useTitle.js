@@ -1,6 +1,5 @@
-import API_DATA from "./ApiData"
 
-const giveUniquePlatform = (data) => {
+const useTitle = (data) => {
 
     const removedUndefined = data.filter((item) => {
         return item.title !== undefined
@@ -21,6 +20,6 @@ const giveUniquePlatform = (data) => {
         }
     })
     return finalDataWithId
+
 }
-const PLATFORM_DATA = giveUniquePlatform(API_DATA)
-export default PLATFORM_DATA
+export default useTitle

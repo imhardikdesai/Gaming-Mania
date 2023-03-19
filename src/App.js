@@ -1,12 +1,14 @@
 import './App.css';
 import { Footer, GameGallery, NavBar } from './components/index'
-
+import Search from './components/Search';
 
 function App() {
+
   return (
     <div className="App">
       <NavBar />
-      <div className="container mt-3">
+      <Search/>
+      <div className="container ">
         <GameGallery />
       </div>
       <Footer />
